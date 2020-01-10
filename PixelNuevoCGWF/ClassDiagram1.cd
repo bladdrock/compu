@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PixelNuevoCGWF.Caracteres">
+    <Position X="7.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Caracteres.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Circunferencia">
+    <Position X="3.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Circunferencia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.CurvasAjuste">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAACBAAAAEAACAAAAABAAACAAAAgAAAAAAAAQA=</HashCode>
+      <FileName>CurvasAjuste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.CurvasV">
+    <Position X="7.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAQ=</HashCode>
+      <FileName>CurvasV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Form1" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CDgAQFMAOCCmaRwbBIiBAaECwe1/kGDg8nYZYCR00JI=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Fractal1">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAABAAQAQAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Fractal1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Lazo">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Lazo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.pantalla">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQACAACAAABAAAAAAACAAAAAAAAAAAAAAAgQAhAAA=</HashCode>
+      <FileName>pantalla.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Poligono">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAA=</HashCode>
+      <FileName>Poligono.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Program" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Segmento">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Segmento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Vector">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACABAAAYAAIgIAAAAA=</HashCode>
+      <FileName>Vector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Properties.Resources" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelNuevoCGWF.Properties.Settings" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

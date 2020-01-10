@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B657539-C3FD-4003-9636-003549EA31C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>appCompuGrafica</RootNamespace>
+    <AssemblyName>appCompuGrafica</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>.\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clases\cArbol.cs" />
+    <Compile Include="clases\cBase.cs" />
+    <Compile Include="clases\cCircunferencia3d.cs" />
+    <Compile Include="clases\cCuadrado.cs" />
+    <Compile Include="clases\cCuadrado3d.cs" />
+    <Compile Include="clases\cCurvasAjuste.cs" />
+    <Compile Include="clases\cEspiral.cs" />
+    <Compile Include="clases\cFractal.cs" />
+    <Compile Include="clases\cFractales2.cs" />
+    <Compile Include="clases\cPiramide.cs" />
+    <Compile Include="clases\cSegmento3d.cs" />
+    <Compile Include="clases\cSuperficie2.cs" />
+    <Compile Include="clases\cSuperficieV.cs" />
+    <Compile Include="clases\cSuperficie.cs" />
+    <Compile Include="clases\cVector.cs" />
+    <Compile Include="clases\cVector3d.cs" />
+    <Compile Include="clases\GraficoV.cs" />
+    <Compile Include="clases\Hipociclo.cs" />
+    <Compile Include="clases\cLazo.cs" />
+    <Compile Include="clases\cFiguras.cs" />
+    <Compile Include="clases\Margarita.cs" />
+    <Compile Include="clases\cPoligono.cs" />
+    <Compile Include="clases\cCircunferencia.cs" />
+    <Compile Include="clases\cSegmento.cs" />
+    <Compile Include="DragControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguracion.Designer.cs">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ingresoPoligono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ingresoPoligono.Designer.cs">
+      <DependentUpon>ingresoPoligono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parcial1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parcial1.Designer.cs">
+      <DependentUpon>parcial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parcial2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parcial2.Designer.cs">
+      <DependentUpon>parcial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parcial3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parcial3.designer.cs">
+      <DependentUpon>parcial3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="prueba12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="prueba12.Designer.cs">
+      <DependentUpon>prueba12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ufractales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ufractales.Designer.cs">
+      <DependentUpon>ufractales.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguracion.resx">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parcial1.resx">
+      <DependentUpon>parcial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parcial2.resx">
+      <DependentUpon>parcial2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parcial3.resx">
+      <DependentUpon>parcial3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="prueba12.resx">
+      <DependentUpon>prueba12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ufractales.resx">
+      <DependentUpon>ufractales.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maintenance_24px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

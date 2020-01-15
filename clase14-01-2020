@@ -1,40 +1,46 @@
-*****************************
+Este es un código base, por favor analizarlo e implementarlo.
+
+********************************************************************************************************************
 Interpolar RGB
-*****************************
+********************************************************************************************************************
 
 public static int RGB(double X1, double X2, double Y1, double Y2, double i)
 {
 	return Convert.ToInt32(((Y1 * (i - X2)) / (X1 - X2)) + ((Y2 * (i - X1)) / (X2 - X1)));
 }
 
-*****************************
+********************************************************************************************************************
 PINCEL
 op es una bandera para guardar datos que a futuro se pueden necesitar para otros eventos o funciones por tal es String
+********************************************************************************************************************
+
 *****************************
-
 En el lienzo en el evento MouseMove, a y b representan x,y después de pasar por el método CARTA.
-
-
+*****************************
 if (op == "ClickPincel")
 {
 	pincel(a, b);
 }
 
+*****************************
 En el lienzo en el evento MouseDown
-
+*****************************
 if (op == "Pincel")
 {
 	op = "ClickPincel";
 }
 
+*****************************
 En el lienzo en el evento MouseUp
+*****************************
 if (op == "ClickPincel")
 {
 	op = "Pincel";
 }
 
+*****************************
 El metodo pincel
-
+*****************************
 void pincel(double x, double y)
 {
 	Circunferencia cb = new Circunferencia();
